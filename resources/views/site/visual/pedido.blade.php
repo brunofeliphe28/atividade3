@@ -32,12 +32,12 @@
 
                 <div class="form-group col-md-6">
                     <label for="nome">Pedido</label>
-                    <input type="text" name="cpf" id="cpf" placeholder="Descrição" class="form-control"/> 
+                    <input type="text" name="pedido" id="pedido" placeholder="Descrição" class="form-control"/> 
                     
                 </div>
                 <div class="form-group col-md-6">
                     <label for="nome">Preço</label>
-                    <input type="text" name="cep" id="cep" placeholder="Valor" class="form-control"/>
+                    <input type="text" name="preco" id="preco" placeholder="Valor" class="form-control"/>
                       
                 </div>
             </div>        
