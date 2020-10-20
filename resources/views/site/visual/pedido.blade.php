@@ -20,7 +20,7 @@
             <div class="input-field">
                 <div class="form-group col-md-6">
                     <label for="nome">Cliente</label>                   
-                    <select name="cadastro_id" id="" class="form-control">
+                    <select name="cadastro_id" id="cadastro_id" class="form-control">
                         <option value="" disabled>Selecione um Cliente</option>
 
                         @foreach ($clientes as $cliente)

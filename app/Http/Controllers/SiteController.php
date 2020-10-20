@@ -59,8 +59,8 @@ class SiteController extends Controller
     public function addpedido(Request $request) {
 
        
-        Pedido::create($request->all());
-        //$pedido ->pedido()->create($request->all);
+        $pedido= Pedido::create($request->all());
+        $pedido ->cadastro()->create($request->all);
         $request->session()->flash('sucesso', "Pedido incluido com Sucesso");
 
         return redirect()->route('site.listar');
