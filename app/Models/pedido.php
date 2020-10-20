@@ -9,7 +9,7 @@ class pedido extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nome','pedido','preco'];
+    protected $fillable = ['id','pedido','preco'];
 
     public function cadastro(){
         return $this->belongsTo(Cadastro::class);
