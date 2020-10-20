@@ -25,9 +25,9 @@
             <tbody>
                 @forelse ($lista as $lista)
                 <tr>
-                  <td>{{$lista->cpf}}</td>
-                  <td>{{$lista->nome}}</td>
-                  <td>{{$lista->cep}}</td>                    
+                  <td>{{$lista->id}}</td> 
+                  <td>{{$lista->pedido}}</td>
+                  <td>{{$lista->preco}}</td>                                     
                 </tr>            
                 @empty
                   <tr>

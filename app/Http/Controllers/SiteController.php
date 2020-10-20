@@ -21,8 +21,8 @@ class SiteController extends Controller
 
     public function listar()
     {
-        $lista = Cadastro::all();                              //busca todos registros no bd e atribui a variavel       
-    
+        $lista = Pedido::all();                              //busca todos registros no bd e atribui a variavel       
+        
         return view('site.visual.listar', compact('lista'));
     }
 
