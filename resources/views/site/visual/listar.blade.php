@@ -16,9 +16,9 @@
         <table class="table table-dark">
             <thead>
               <tr>
-                <th scope="col">Cpf</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Cep</th>                               
+                <th scope="col">id</th>
+                <th scope="col">pedido</th>
+                <th scope="col">preço</th>                               
               </tr>
 
             </thead>
